@@ -1,5 +1,6 @@
+#温度转换
 TempStr = input("请输入带符号的温度值：")
-
+#-1 字符串从后向前的索引
 if TempStr[-1] in ['F','f']:
     C = (eval(TempStr[0:-1])-32)/1.8
     print("转换后的温度是{:.2f}C".format(C))
